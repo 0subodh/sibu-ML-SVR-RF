@@ -1,0 +1,44 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.class
+
+# Virtual environments
+venv/
+.env/
+env/
+*.venv/
+
+# Output files
+outputs/*
+!outputs/.gitkeep
+
+# Jupyter notebooks and checkpoints
+*.ipynb
+.ipynb_checkpoints/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Sensitive or local configuration
+*.env
+*.secret
+local_settings.py
+
+# Python package installation
+*.egg-info/
+dist/
+build/
